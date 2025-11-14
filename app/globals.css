@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --radius: 16px; }
+* { scroll-behavior: smooth; }
+.border { border-radius: var(--radius); }
+input::placeholder { color: rgb(148 163 184); }
